@@ -217,7 +217,7 @@ nodes, err := dev.FindNodes(func(n, pn uixml.Node) bool {
 
 ## 依赖项
 
-- [gadb](https://github.com/electricbubble/gadb) - Go ADB 库
+本项目仅依赖 Go 标准库，无需额外的第三方依赖。
 
 ## 使用场景
 
