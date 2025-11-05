@@ -27,3 +27,6 @@ Thumbs.db
 
 # APK files (可选：如果不想提交 APK 文件，取消下面的注释)
 # *.apk
+
+# Local test directory
+test-local/
