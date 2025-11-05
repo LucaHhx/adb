@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/luca/adb/adb"
+	"github.com/LucaHhx/adb/adb"
 )
 
 // 强制停止应用：adb shell am force-stop id.co.bri.biz.app.token

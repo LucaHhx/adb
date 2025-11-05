@@ -45,6 +45,60 @@
 └── go.mod                # Go 模块定义
 ```
 
+## 安装
+
+### 在其他项目中使用
+
+在你的 Go 项目中安装这个库：
+
+```bash
+go get github.com/LucaHhx/adb
+```
+
+### 创建新项目使用示例
+
+1. 创建一个新的 Go 项目：
+
+```bash
+mkdir my-adb-project
+cd my-adb-project
+go mod init my-adb-project
+```
+
+2. 安装此库：
+
+```bash
+go get github.com/LucaHhx/adb
+```
+
+3. 创建 main.go 文件：
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/LucaHhx/adb/adb"
+)
+
+func main() {
+    // 创建设备实例
+    dev := adb.NewDevice()
+
+    // 点击屏幕
+    err := dev.Tap(500, 1000)
+    if err != nil {
+        fmt.Println("Error:", err)
+    }
+}
+```
+
+4. 运行：
+
+```bash
+go run main.go
+```
+
 ## 快速开始
 
 ### 环境准备
@@ -78,7 +132,7 @@ package main
 
 import (
     "fmt"
-    "github.com/luca/adb/adb"
+    "github.com/LucaHhx/adb/adb"
 )
 
 func main() {

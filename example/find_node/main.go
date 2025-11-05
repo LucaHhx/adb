@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/luca/adb/adb"
-	"github.com/luca/adb/adb/uixml"
+	"github.com/LucaHhx/adb/adb"
+	"github.com/LucaHhx/adb/adb/uixml"
 )
 
 func main() {

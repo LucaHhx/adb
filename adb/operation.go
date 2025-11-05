@@ -3,7 +3,7 @@ package adb
 import (
 	"fmt"
 
-	"github.com/luca/adb/adb/uixml"
+	"github.com/LucaHhx/adb/adb/uixml"
 )
 
 func (d *Device) XML() (*uixml.Xml, error) {
